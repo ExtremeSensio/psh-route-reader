@@ -1,0 +1,46 @@
+{
+  "https://sensiogrey.com/": {
+    "original_url": "http://{default}/",
+    "tls": {
+      "client_authentication": null,
+      "client_certificate_authorities": [],
+      "min_version": null,
+      "strict_transport_security": {
+        "enabled": null,
+        "include_subdomains": null,
+        "preload": null
+      }
+    },
+    "to": "http://www.sensiogrey.com/",
+    "type": "redirect"
+  },
+  "https://www.sensiogrey.com/": {
+    "cache": {
+      "cookies": [
+        "*"
+      ],
+      "default_ttl": 0,
+      "enabled": true,
+      "headers": [
+        "Accept",
+        "Accept-Language"
+      ]
+    },
+    "original_url": "http://www.{default}/",
+    "ssi": {
+      "enabled": false
+    },
+    "tls": {
+      "client_authentication": null,
+      "client_certificate_authorities": [],
+      "min_version": null,
+      "strict_transport_security": {
+        "enabled": null,
+        "include_subdomains": null,
+        "preload": null
+      }
+    },
+    "type": "upstream",
+    "upstream": "website"
+  }
+}
